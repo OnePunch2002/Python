@@ -7,6 +7,5 @@ with sr.Microphone() as source:
     try:
         text = r.recognize_google(audio)
         print("You said : {}".format(text))
-        print("Now go Home 😮‍💨")
     except:
-        print("Move your mouth say some word 😒")
+        print("Say some word 😒")
