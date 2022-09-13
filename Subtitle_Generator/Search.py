@@ -18,7 +18,7 @@ if 'youtube' in r2.recognize_google(audio):
     url = 'https://www.youtube.com'
 
     try:
-        # this is API used to 
+        # this is an API
         text = r1.recognize_google(audio)
         print(wb.get)
         wb.get().open_new(url+wb.get)
